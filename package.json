@@ -1,0 +1,24 @@
+{
+  "name": "AlexaController",
+  "version": "0.1.0",
+  "author": "John D. Allen",
+  "description": "Pesudo Devices for Alexa to Control",
+  "main": "AlexaControl.js",
+  "keywords": [
+    "MQTT",
+    "Alexa"
+  ],
+  "scripts": {
+    "test": "echo \"Error: No tests specified.\" && exit 1",
+    "start": "node AlexaControl.js"
+  },
+  "dependencies": {
+    "mqtt": "*",
+    "node-fauxmo": "0.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/john2exonets/AlexaController.git"
+  },
+  "license": "MIT"
+}
