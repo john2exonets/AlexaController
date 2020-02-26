@@ -5,3 +5,4 @@ This uses the [fauxWeMo](https://kernelmanic.com/2019/05/14/control-anything-wit
 
 So, in the Example code, I have defined "Emergency Plan Alpha", so to trigger this I tell Alexa: "Alexa...Turn on Emergency Plan Alpha". This triggers the program to send out 'plan/alpha: {"cmd": "Execute"}'.
 
+I have added files needed to create a Docker Contaier to the repo. Keep in mind that you will need to have an Alexa device in the same subnet as your Docker server in order for the Alexa device to "find" your psuedo-devices.
