@@ -14,6 +14,7 @@ var fauxmo = require('node-fauxmo');
 var mqtt = require('mqtt');
 
 var copts = {
+  clientId: "AlexaCntl",
   keepalive: 5000
 };
 
